@@ -1,0 +1,251 @@
+.header{
+    background-color: #0AAAA0;
+    height: 2.5rem;
+}
+
+.social{
+    float: right;
+    padding-top: .5rem;
+    color: white;
+    margin: 0rem 15rem 0rem 0rem;
+    width: fit-content;
+    font-size: 14px;
+}
+.icn{
+    color: white;
+    margin-left: 1rem;
+}
+.navDiv{
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+}
+.details{
+    margin: 0rem auto;
+    color: white;
+    /* background-color: blue; */
+    text-align: center;
+    width: 80%;
+    padding-bottom: 2rem;
+    
+}
+.contact{
+    color: white;
+    margin: 0rem auto;
+    color: white;
+    /* background-color: red; */
+    text-align: left;
+    width: 80%;
+    padding-bottom: 2rem;
+}
+/* 
+.img-head{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0AAAA0;
+    opacity: 0.6;
+}
+
+.head-1,.head-2{
+    position:absolute;
+} */
+
+.demo-bg {
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+    background-color: #0AAAA0;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
+  }
+  .imgSize{
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+  }
+  .demo-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .subDemo{
+    /* text-align: left; */
+    color: white;
+    padding-top: 10rem;
+    height: 100%;
+    align-items: center;
+    background-color: 0AAAA0;
+    float: left;
+  }
+  .joinImg{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  .joinBtn{
+    margin-top: 2rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    width: 10rem;
+    border-color: rgb(0, 92, 51);
+    color: white;
+  }
+  .joinBtn:hover{
+    /* background-color: white; */
+    font-size: 1.4rem;
+    /* box-shadow: 1px -1px 15px 12px rgba(, 0.55); */
+    box-shadow: 1px -1px 10px 13px rgba(255, 255, 255,0.55);
+
+  }
+
+  .botm-head{
+    /* margin-left: 0rem; */
+    /* text-align: center; */
+    font-weight: bold;
+    /* color: white; */
+  }
+  .aboutUs{
+    margin-top: 4rem;
+  }
+
+  .para1{
+    font-size: 1.05rem;
+  }
+
+  .info-head{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    color: #0AAAA0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .infoMain{
+    display: flex;
+    height: 70vh;
+  }
+
+  .crou{
+    padding-top: 3rem;
+    width: 50%;
+    background-color: white;
+    text-align: right;
+  }
+
+  .subCrou{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: right;
+    border: 4px solid rgb(82, 129, 82);
+  }
+  .info{
+    width: 50%;
+    padding-top: 3rem;
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .infoSub{
+    width: 85%;
+  }
+  .about{
+    font-weight: lighter;
+  }
+
+  .imgwrap{
+    overflow: hidden;
+    position: relative;
+    height: 50vh;
+    /* background-color: black; */
+    opacity: 0.5;
+    display: flex;
+  }
+
+  .statImg{
+    background-image: url("/Images/counter-bg.jpg");
+    width: 100%;
+    background-repeat: none;
+    position: absolute;
+    height: 80vh;
+    background-size: 100%;
+
+  }
+
+  .statDiv{
+
+  }
+
+  .stats{
+    display: flex;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    background-color: #6CCCC6;
+    opacity: 80%;
+  }
+  #statIcn{
+    padding-top: 0.5rem;
+    text-align: center;
+    margin: 7rem 8rem 8rem 12rem;
+    color: rgb(0, 0, 0);
+    height: 30%;
+    width: 200%;
+    border: 5px solid black;
+    background-color: #6CCCC6;
+    border-radius: 50%;
+    font-weight: bolder;
+  }
+  .img-txt-1{
+    position: absolute;
+    top: 15rem;
+    /* left: 5rem; */
+    /* color:black; */
+    font-weight: bolder;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .exp{
+    /* margin-left: -1rem; */
+    margin-top: 0.5rem;
+  }
+
+  .img-txt-2{
+    position: absolute;
+    top: 15rem;
+    left: 25rem;
+    color:black;
+    font-weight: bolder;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .volntr{
+    /* margin-left: 0.5rem; */
+    margin-top: 0.5rem;
+  }
+
+  .img-txt-3{
+    position: absolute;
+    top: 15rem;
+    left: 50rem;
+    color:black;
+    font-weight: bolder;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .help{
+    /* margin-left: -1rem; */
+    margin-top: 0.5rem;
+  }
+
+
