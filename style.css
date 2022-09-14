@@ -168,24 +168,19 @@
     position: relative;
     height: 50vh;
     /* background-color: black; */
-    opacity: 0.5;
+    /* opacity: 0.5; */
     display: flex;
   }
 
   .statImg{
     background-image: url("/Images/counter-bg.jpg");
     width: 100%;
-    background-repeat: none;
+    background-repeat: no-repeat;
     position: absolute;
     height: 80vh;
     background-size: 100%;
 
   }
-
-  .statDiv{
-
-  }
-
   .stats{
     display: flex;
     position: absolute;
@@ -214,6 +209,10 @@
     font-weight: bolder;
     transform: translateY(-50%);
     text-align: center;
+  }
+  .staticn{
+    font-size: 50px;
+    color: black;
   }
   .exp{
     /* margin-left: -1rem; */
@@ -247,5 +246,3 @@
     /* margin-left: -1rem; */
     margin-top: 0.5rem;
   }
-
-
